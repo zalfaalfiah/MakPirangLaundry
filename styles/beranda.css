@@ -1,0 +1,162 @@
+body {
+    background-color: #9B7EBD;
+    font-family: "Poppins", serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8FAFC;
+    color: black;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 100px;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #9B7EBD;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container {
+    background-color: #F8FAFC;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #7C3B8E;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+table {
+    border: solid #7C3B8E;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th {
+    color: #7C3B8E;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+td {
+    color: #7C3B8E;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button {
+    font-size: 12px;
+    font-weight: 500;
+    width: 80px;
+    height: 23px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(122, 62, 177, 0.3);
+    border-style: none;
+    background-color: #7C3B8E;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkmagenta;
+}
+
+span {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.ikon-proses {
+    background-color: #f39e60;
+}
+
+.ikon-selesai {
+    background-color: #a8cd89;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.judul .ikon {
+    font-size: 24px;
+    color: #7C3B8E;
+}
+
+.status {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.navbar a.active {
+    color: #9b7ebd;
+    font-weight: bold;
+}

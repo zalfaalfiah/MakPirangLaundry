@@ -1,0 +1,119 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+
+h2,
+p {
+    margin: 0;
+}
+
+.judul {
+    display: inline-block;
+    margin-left: 5px;
+    padding-top: 10px;
+    color: #7c3b8e;
+}
+
+.logo {
+    display: inline-block;
+    height: 80px;
+    width: 70px;
+}
+
+p {
+    font-size: 13px;
+    margin-left: 18px;
+}
+
+.judul-apk {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.selamat-datang {
+    margin-left: 13px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 15px;
+    color: #7c3b8e;
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+input {
+    height: 33px;
+    width: 340px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 15px;
+}
+
+button {
+    height: 33px;
+    width: 347px;
+    color: white;
+    background-color: #7c3b8e;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkmagenta;
+}
+
+.input-form {
+    margin-left: 3px;
+    margin-top: 20px;
+}
+
+input::placeholder {
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.login-dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    width: 85%;
+    max-width: 1080px;
+    height: 85%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.login-form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    padding: 40px;
+}
+
+.login-form-wrapper {
+    display: flex;
+    flex-direction: column;
+}

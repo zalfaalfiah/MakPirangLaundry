@@ -1,0 +1,207 @@
+body {
+    background-color: #9B7EBD;
+    font-family: "Poppins", serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8FAFC;
+    color: black;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 100px;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: #9B7EBD;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container {
+    background-color: #F8FAFC;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #7C3B8E;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.judul .ikon {
+    font-size: 24px;
+    color: #7C3B8E;
+}
+
+table {
+    border: solid #7C3B8E;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th,
+td {
+    color: #7C3B8E;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button {
+    font-size: 12px;
+    font-weight: 500;
+    width: 80px;
+    height: 23px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(122, 62, 177, 0.3);
+    border-style: none;
+    background-color: #7C3B8E;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkmagenta;
+}
+
+.hapus-button {
+    margin-left: 10px;
+}
+
+.input-data {
+    color: #7C3B8E;
+    font-weight: 600;
+    font-size: 13.5px;
+}
+
+input,
+select {
+    border-style: solid;
+    border-color: #7C3B8E;
+    border-width: 1.5px;
+    display: block;
+    border-radius: 4px;
+}
+
+input {
+    height: 28px;
+    width: 300px;
+}
+
+select {
+    height: 35px;
+    width: 308px;
+}
+
+.input-tanggal {
+    height: 33px;
+    width: 305px;
+}
+
+label {
+    display: inline-block;
+}
+
+.input1,
+.input2 {
+    display: inline-block;
+    margin-left: 175px;
+}
+
+.simpan-button {
+    margin-top: 15px;
+    display: block;
+    margin-left: 175px;
+    margin-bottom: 25px;
+}
+
+.pesan-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.pesan-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.pesan-sukses {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.navbar a.active {
+    color: #9b7ebd;
+    font-weight: bold;
+}
